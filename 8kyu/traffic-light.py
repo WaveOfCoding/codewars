@@ -14,7 +14,7 @@ def update_light(current):
     else:
         return 'green'
 
-    
+
 # Another Solution
 def update_light(current):
     return {"green": "yellow", "yellow": "red", "red": "green"}[current]
